@@ -1,0 +1,8 @@
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\bin\Debug\OOPSdEMO.exe.config
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\bin\Debug\OOPSdEMO.exe
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\bin\Debug\OOPSdEMO.pdb
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\obj\Debug\OOPSdEMO.csproj.AssemblyReference.cache
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\obj\Debug\OOPSdEMO.csproj.SuggestedBindingRedirects.cache
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\obj\Debug\OOPSdEMO.csproj.CoreCompileInputs.cache
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\obj\Debug\OOPSdEMO.exe
+C:\Users\91910\source\repos\OOPSdEMO\OOPSdEMO\obj\Debug\OOPSdEMO.pdb

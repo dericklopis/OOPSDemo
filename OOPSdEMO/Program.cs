@@ -24,11 +24,13 @@ namespace OOPSdEMO
                     lion lion = new lion();
                     lion.name ="lion";
                     Console.WriteLine("Name: "+ lion.name);
+                    Console.ReadLine();
                     break;
                 default:
                     Console.WriteLine("Please choose numbers within range");
                     break;
             }
         }
+
     }
 }

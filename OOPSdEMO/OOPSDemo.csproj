@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Abstraction\Shape.cs" />
     <Compile Include="Abstraction\Square.cs" />
+    <Compile Include="Encapsulation\BankAccount.cs" />
     <Compile Include="Inheritance\Animal.cs" />
     <Compile Include="Inheritance\lion.cs" />
     <Compile Include="Polymorphism\MethodOverloading.cs" />

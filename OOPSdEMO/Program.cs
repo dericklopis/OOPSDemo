@@ -1,4 +1,5 @@
 ﻿using OOPSdEMO.Abstraction;
+using OOPSdEMO.Encapsulation;
 using OOPSdEMO.Inheritance;
 using OOPSdEMO.Polymorphism;
 using System;
@@ -16,7 +17,7 @@ namespace OOPSdEMO
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose one program from below options");
-            Console.WriteLine("1:Inheritance \n2:PolyMorphism \n3:Abstraction");
+            Console.WriteLine("1:Inheritance \n2:PolyMorphism \n3:Abstraction \n4:Encapsulation");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -44,6 +45,13 @@ namespace OOPSdEMO
                     Square sh = new Square(7);
                     // calling the method
                     sh.Area();
+                    Console.ReadLine();
+                    break;
+                case 4:
+                    BankAccount account = new BankAccount();
+                    Console.WriteLine("Before modify:"+ account.Amount);
+                    account.Amount = 5000;
+                    Console.WriteLine("After modify:" + account.Amount);
                     Console.ReadLine();
                     break;
                 default:

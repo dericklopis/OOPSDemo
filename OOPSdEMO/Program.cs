@@ -1,4 +1,5 @@
-﻿using OOPSdEMO.Inheritance;
+﻿using OOPSdEMO.Abstraction;
+using OOPSdEMO.Inheritance;
 using OOPSdEMO.Polymorphism;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace OOPSdEMO
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose one program from below options");
-            Console.WriteLine("1:Inheritance \n2:PolyMorphism");
+            Console.WriteLine("1:Inheritance \n2:PolyMorphism \n3:Abstraction");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -36,6 +37,14 @@ namespace OOPSdEMO
                     Console.ReadLine();
                     //Tiger tiger = new Tiger();
                     //tiger.Run();
+                    break;
+                case 3:
+                    //creating reference of Shape class
+                    //which refer to Square class instance
+                    Square sh = new Square(7);
+                    // calling the method
+                    sh.Area();
+                    Console.ReadLine();
                     break;
                 default:
                     Console.WriteLine("Please choose numbers within range");

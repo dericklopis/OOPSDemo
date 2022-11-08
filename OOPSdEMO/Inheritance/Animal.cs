@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace OOPSdEMO.Inheritance
 {
-    class Animal
+    public class Animal
     {
         public string name;
         public void Sleep()
         {
             Console.WriteLine("Sleeping");
         }
-        public void Run()
+        public virtual void Run()
         {
             Console.WriteLine("Depends on child");
         }
